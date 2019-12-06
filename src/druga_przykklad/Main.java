@@ -17,6 +17,8 @@ public class Main {
         uzyjImplemetacji((String s)->{
             System.out.println("cdcdccccc"+s);
         },"kxkxkx");
+        uzyjImplemetacji(s -> System.out.println("[LAMBDA] wustartowano pojazd: "+s),"Polonez");
+
     }
     static void uzyjImplemetacji (Vehicle v, String s){
         v.run(s);
